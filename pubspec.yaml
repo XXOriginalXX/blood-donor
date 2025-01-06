@@ -1,0 +1,27 @@
+name: blood_donor_finder
+description: A Flutter app to connect blood donors with people in need
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  cloud_firestore: ^4.13.6
+  google_maps_flutter: ^2.5.0
+  geolocator: ^10.1.0
+  provider: ^6.1.1
+  flutter_local_notifications: ^18.0.1
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
