@@ -1,16 +1,46 @@
-# blood_donor_finder
+# 🩸 Blood Donor App
 
-A new Flutter project.
+**Blood Donor App** is a simple and powerful Flutter application that helps users **find nearby blood donors** based on their blood group and location. The app bridges the gap between **blood seekers and donors** quickly and efficiently.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔐 User registration and login
+- 🧾 Donor profile creation (name, blood group, contact info, location)
+- 🔍 Search donors by blood group and city
+- 📍 Location-based filtering
+- 📬 Request donor feature (call/message)
+- 🔄 Real-time donor list updates
+- 🎨 Minimal and responsive UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+- **Flutter** – Cross-platform mobile app framework
+- **Dart** – Programming language
+- **Geolocation** – For location-based search (optional)
+
+---
+
+## 🔧 Getting Started
+
+### Prerequisites
+
+- Flutter installed ([Installation Guide](https://flutter.dev/docs/get-started/install))
+- Firebase project set up
+- Android Studio or VS Code with Flutter plugins
+
+### Setup Instructions
+
+```bash
+# Clone the repo
+git clone https://github.com/yourusername/blood-donor-app.git
+cd blood-donor-app
+
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run
